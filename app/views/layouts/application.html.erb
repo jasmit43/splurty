@@ -15,16 +15,16 @@
         <%= link_to root_path, class: 'logo' do %>
           <div class="circle">
             <br />
-            You know
+            YOU
             <br />
-            you need
+            BETTER
             <br />
-            to code
+            WORK!
           </div>
         <% end %>
       </div>
       <div class="col col-sm-4 hidden-xs-down slogan">
-        Splurting out unsolicited advice about entrepreneurship since 2016
+        Spilling tea and dishing just desserts since 2019
       </div>
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
@@ -40,7 +40,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLabel">Contribute Your Quote</h4>
+            <h4 class="modal-title" id="exampleModalLabel">She said, WHAT!?</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -48,9 +48,9 @@
           
           <%= simple_form_for Quote.new do |f| %>
             <div class="modal-body"> 
-              <%= f.input :saying, label: "What is a saying you want to add?", placeholder: "The shaaade, the shade of it aaall." %>
+              <%= f.input :saying, label: "Spill the tea!", placeholder: "The shaaade, the shade of it aaall." %>
               <br />
-              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Latrice Royale" %>
+              <%= f.input :author, label: "Which queen served the shade?", placeholder: "Latrice Royale" %>
             </div>
 
             <div class="modal-footer">
